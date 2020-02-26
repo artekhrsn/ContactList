@@ -1,0 +1,12 @@
+* {
+    background-color: snow;
+}
+form {
+    display: grid
+};
+.email, #lastNameInput, #nameInput{
+    color: red;
+}
+form p {
+color: red;
+};

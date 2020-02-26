@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Git Tutorial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="main.js"></script>
+    <script language="JavaScript1.2" src="tablesort-min.js"></script>
+    <style>
+      label {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <label>*Name:</label><br />
+      <input
+        type="text"
+        id="name"
+        required
+        placeholder="Name:"
+        class="required w3-input w3-border w3-round w3-third"
+      /><br />
+      <p id="nameInput"></p>
+      <label>*Last name:</label><br />
+      <input
+        type="text"
+        id="lastname"
+        required
+        placeholder="Last Name:"
+        class="required w3-input w3-border w3-round w3-third"
+      /><br />
+      <p id="lastNameInput"></p>
+      <label>Gender:</label>
+
+      <select id="gender" class="w3-input w3-border w3-round w3-third">
+        <option value="male" class="w3-input w3-border w3-round w3-third"
+          >Male</option
+        >
+        <option value="female" class="w3-input w3-border w3-round w3-third"
+          >Female</option
+        >
+      </select>
+
+      <label>Phone number</label>
+
+      <input
+        id="phone"
+        type="tel"
+        class="w3-input w3-border w3-round w3-third"
+      /><br />
+      <label>e-mail</label>
+
+      <input
+        id="email"
+        type="email"
+        class="w3-input w3-border w3-round w3-third"
+      />
+      <p class="email"></p>
+
+      <span> * - required field</span>
+
+      <button type="submit" id="addBtn" class="w3-button w3-blue w3-third">Add</button>
+    </form>
+
+    <section>
+      <table class="w3-table-all w3-hoverable">
+        <thead>
+          <tr class="w3-light-grey">
+            <th>Name</th>
+            <th class="nocase">Last name</th>
+            <th>Gender</th>
+            <th>Phone</th>
+            <th>e-mail</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+    <div class="w3-center">
+      <div class="w3-bar w3-border">
+        <button class="w3-button w3-blue">10</button>
+        <button class="w3-button w3-blue">20</button>
+        <button class="w3-button w3-blue">50</button>
+        <button class="w3-button w3-blue">All</button>
+      </div>
+    </div>
+
+    <!-- input form grupowanie  -->
+    <!-- <div>
+            <label></label>
+            <input>
+            <span>error</span>
+        </div> -->
+  </body>
+</html>
